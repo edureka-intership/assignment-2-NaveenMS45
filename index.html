@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Aanandas!..</title>
+    <link rel="stylesheet" href="homepage.css">
+  </head>
+  <body>
+        <div class="header">
+            <div class="login">
+                <span>sign up</span>
+                <span>login</span>
+                <span>Add Restaurant</span>
+            </div> 
+            
+            <div id="heading">
+                <span>Aanandas!</span>
+                <p>Discover the best food and drinks from us</p>
+            </div> 
+            <div class="dropdown">
+                <div class="row">
+                    <button type="button" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Detect Auto Location Using GPS">
+                        Select Location
+                    </button>
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Search for Restaurant,Cuisine or a dish"  aria-describedby="basic-addon2">
+                        <img src="images/magnifying-glass-solid.svg" alt="" class="magnifying-glass">
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <!-- Cards -->
+        <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col-6">
+              <div class="card" style="border-radius: 25px;">
+                <img src="images/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Order Online</h5>
+                  <p class="card-text">Stay home and order at your doorstep</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card" style="border-radius: 25px;">
+                <img src="images/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dine Out</h5>
+                  <p class="card-text">View the citie's favourite dining venues</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card" style="border-radius: 25px;">
+                <img src="images/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Order Online</h5>
+                  <p class="card-text">Stay home and order at your doorstep</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card" style="border-radius: 25px;">
+                <img src="images/card4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dine Out</h5>
+                  <p class="card-text">View the citie's favourite dining venuesS</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        <!--  Alerts -->
+        <div class="container mt-4">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Grab Your items soon!</strong> Offer is running out..
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+        <!--  Collections  -->
+        <div class="container mt-5">
+            <div class="row">
+                <h1>Collections</h1>
+                <p style="color:black">Explore curated lists of top restaurants, cafes, pubs, and bars in Salem, based on trends</p>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100 border-0">
+                        <img src="images/c1.jpg" class="card-img-top h-100" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title text-end text-light">Trending this week</h5>
+                            <p class="card-text text-end text-light">51 places</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 border-0">
+                        <img src="images/c2.jpg" class="card-img-top h-100" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title text-light">Brilliant kofta</h5>
+                            <p class="card-text text-light">31 places</p>
+                        </div>
+                      </div>
+                    </div>
+                </div> 
+            </div>            
+        </div>
+      <!-- get app -->
+      <div class="container mt-5" id="app">
+        <h1>Get the Aanandas app</h1>
+        <p>We will send you a link, open it on your phone to download
+           the app</p>
+           <div class="form-check form-check-inline float-right">
+            <input class="form-check-input" checked type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Email</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="inlineRadio2" value="option2"name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">phone</label>
+          </div> 
+          <div class="input-group mt-3 ml-3">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button id="danger" class="btn btn-danger" type="button" id="button-addon2">Share app link</button>
+          </div>   
+      </div>
+         <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
